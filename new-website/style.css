@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 130%;
+  letter-spacing: 0em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/*
+ *
+  HEADER | Start
+ *
+ */
+#nav {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 3.4rem;
+}
+
+.nav-logo {
+  margin-bottom: 1.1rem;
+}
+
+.nav-logo a {
+  font-size: 1.9rem;
+  font-weight: 900;
+  letter-spacing: 0.22em;
+}
+
+.nav-follow,
+.nav-merch {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+}
+
+.nav-follow {
+  line-height: 23px;
+}
+
+.nav-merch {
+  line-height: 120%;
+}
+
+/*
+  HEADER | End
+ */
+
+
+ /*
+  *
+   FOOTER | Start
+  *
+  */
+.latest-release-down {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 2rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
+}
+
+/*
+  FOOTER | End
+ */
+#homepage {
+  width: 100%;
+  height: 100vh;
+  background: url(img/navvier-background-home.png) center no-repeat;
+  background-size: cover;
+}
+
+ /*
+  *
+   CONTAINER - HOME | Start
+  *
+  */
+
+  /*
+    CONTAINER - HOME | End
+   */
